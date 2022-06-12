@@ -1,0 +1,33 @@
+.portfolia-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolia__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolia__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolia__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolia__item h3 {
+    margin: 1.2rem;
+}
+
+.portfolia__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
